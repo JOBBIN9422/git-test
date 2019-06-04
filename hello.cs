@@ -6,7 +6,7 @@ namespace HelloWorld
         static void Main() 
         {
 		Console.WriteLine(add(2, 2));
-            Console.WriteLine("Goodbye World!");
+            Console.WriteLine("Hello World!");
         }
 	
 	public static int add(int a, int b)
