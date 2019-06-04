@@ -5,11 +5,12 @@ namespace HelloWorld
     {
         static void Main() 
         {
-            Console.WriteLine("Hello World!");
-
-            // Keep the console window open in debug mode.
-            Console.WriteLine("Press any key to exit.");
-            Console.ReadKey();
+            Console.WriteLine("Goodbye World!");
         }
+	
+	public static int add(int a, int b)
+	{
+		return a + b;
+	}
     }
 }
