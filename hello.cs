@@ -7,6 +7,7 @@ namespace HelloWorld
         {
 		Console.WriteLine(subtract(2, 2));
 		Console.WriteLine(multiply(3, 2));
+		Console.WriteLine(divide(3, 2));
             Console.WriteLine("Goodbye World!");
         }
 	
@@ -18,6 +19,11 @@ namespace HelloWorld
 	public static int multiply(int a, int b)
 	{
 		return a * b;
+	}
+
+	public static int divide(int a, int b)
+	{
+		return a / b;
 	}
     }
 }
