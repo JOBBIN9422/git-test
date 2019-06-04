@@ -5,6 +5,7 @@ namespace HelloWorld
     {
         static void Main() 
         {
+		Console.WriteLine(add(2, 2));
             Console.WriteLine("Goodbye World!");
         }
 	
